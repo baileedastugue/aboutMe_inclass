@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+.header{
+    background-color: grey;
+    color: #fefbec;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+h2{
+    font-style: "Georgia";
+    color: gray;
+    padding-left: 30px;
+}
+
+
+.about{
+    width: 66%;
+    padding: 30px;
+    float: left;
+}
+
+.contact{
+    width: 33%;
+    float: right;
+    padding-top: 30px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+p{
+    padding-left: 15%;
+    text-align: justify;
+}
+
+a:visited{
+    color: rgb(214, 130, 144);
+}
+
+a:link{
+    color: gray;
+}

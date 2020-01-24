@@ -8,7 +8,7 @@ body {
     font-family: Georgia, 'Times New Roman', serif;
   }
 
-.header{
+#header{
     background-color: rgb(105, 105, 105);
     color: #f3f0e1;
     padding: 10px;
@@ -24,17 +24,18 @@ h2{
 }
 
 
-.about{
-    width: 66%;
+#about{
+    width: 75%;
     padding-top: 10px;
     padding-left: 30px;
     float: left;
 }
 
-.contact{
-    width: 33%;
+#contact{
+    width: 25%;
     float: right;
     padding-top: 10px;
+    line-height: 20px;
 }
 
 img{
@@ -46,6 +47,11 @@ img{
 
 p{
     text-align: justify;
+}
+
+p.about{
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 a:visited{
